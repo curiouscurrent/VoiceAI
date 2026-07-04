@@ -1,6 +1,9 @@
 # VoiceAI
 Building a landing page, booking page, for a client, for booking appointments using an outbound voice AI agent with the help of Retell AI, gohighlevel CRM and n8n.
 
+### REQUIREMENTS : 
+Private integration token (GHL)
+
 ## GHL (CRM) : 
 1. The first step : 
   First a user submits a survey on the landing page, then the "survey submitted" trigger will be activated, a contact will be created using the Create contact action, (based on info submitted in survey) , then   we will add a contact tag, let's name it "newlead"
