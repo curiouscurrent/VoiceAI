@@ -4,7 +4,15 @@ Voices used : ElevenLabs, OpenAI
 
 ### REQUIREMENTS : 
 1. Private integration token (GHL)
-2. Phone number to be purchased and given to Retell AI agent to make calls. 
+2. Phone number to be purchased and given to Retell AI agent to make calls.
+
+# OUTPUT (RETELL AI + N8N + GHL CRM)
+<img width="1366" height="661" alt="n8n-1" src="https://github.com/user-attachments/assets/d5dd7dde-8197-4e9a-841e-ddf113471800" />
+
+**POSTCALL ANALYSIS**
+<img width="1130" height="527" alt="image" src="https://github.com/user-attachments/assets/7b3dacbe-4123-4ffd-8fb5-2aee109e6e11" />
+
+
 
 
 ## GHL (CRM) : 
@@ -29,6 +37,12 @@ Voices used : ElevenLabs, OpenAI
 
 6. So for creating a multi prompt agent, we have to follow a prompt tree structure, like this, and the prompt has to be passed in markdown format, it is the format the agent understands.
    When you capitalise a text, it tells the agent that it is very important.
+
+   <img width="1042" height="528" alt="image" src="https://github.com/user-attachments/assets/756736b8-79a4-4d98-af1e-9733b6120e09" />
+
+
+
+
 
 ## CHALLENGES
   Done with checking availability, booking appointment needs oauth access token or private integration token which is not available for a sub account, so we need that to get the http response.
