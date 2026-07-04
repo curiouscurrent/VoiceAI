@@ -1,0 +1,17 @@
+	{
+  "type": "object",
+  "properties": {
+    "contactId": {
+      "type": "string",
+      "description": "The unique identifier for the contact, e.g., 'XiURnxksx488ngdihRIE', 'QEwqvOFvRSBJzJ5FZBDB', 'drMyBUB4NCkdz5OaBllX'."
+    },
+    "startDate": {
+      "type": "string",
+      "description": "The requested start time in ISO 8601 format with America/Los_Angeles timezone offset, (e.g., 2025-06-10T14:00:00-08:00)."
+    }
+  },
+  "required": [
+    "startDate",
+    "contactId"
+  ]
+}
