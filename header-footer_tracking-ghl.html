@@ -1,0 +1,52 @@
+Header Tracking
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
+
+Footer Tracking
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  // 1. Initialize AOS
+  AOS.init({
+    duration: 1200,   
+    once: true,       
+    startEvent: 'DOMContentLoaded', 
+    easing: 'ease-out-back', 
+    offset: 300,      
+  });
+</script>
+
+<script>
+// 2. Custom Script to Inject Attributes
+setTimeout(function() {
+    // Selects ALL elements that have the custom class 'aos-trigger'
+    const elements = document.querySelectorAll('.aos-trigger');
+    
+    elements.forEach(element => {
+        // Get all classes assigned to the element
+        const classList = element.className.split(' ');
+        
+        // Find the class that starts with 'aos-' (e.g., 'aos-fade-up')
+        const aosClass = classList.find(c => c.startsWith('aos-') && c !== 'aos-trigger');
+        
+        if (aosClass) {
+            // Extract the animation name (e.g., 'fade-up' from 'aos-fade-up')
+            const animationName = aosClass.substring(4); 
+            
+            // Set the data-aos attribute
+            element.setAttribute('data-aos', animationName);
+            element.classList.add('aos-init');
+            
+            // Optional: You can also add other attributes based on class, 
+            // e.g., element.setAttribute('data-aos-delay', '500'); 
+        }
+    });
+    
+    AOS.refresh();
+
+}, 100); 
+</script>
