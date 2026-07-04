@@ -1,8 +1,11 @@
 # VoiceAI
 Building a landing page, booking page, for a client, for booking appointments using an outbound voice AI agent with the help of Retell AI, gohighlevel CRM and n8n.
+Voices used : ElevenLabs, OpenAI
 
 ### REQUIREMENTS : 
-Private integration token (GHL)
+1. Private integration token (GHL)
+2. Phone number to be purchased and given to Retell AI agent to make calls. 
+
 
 ## GHL (CRM) : 
 1. The first step : 
