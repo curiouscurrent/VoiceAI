@@ -12,6 +12,14 @@ Voices used : ElevenLabs, OpenAI
 **POSTCALL ANALYSIS**
 <img width="1130" height="527" alt="image" src="https://github.com/user-attachments/assets/7b3dacbe-4123-4ffd-8fb5-2aee109e6e11" />
 
+**APPOINTMENT BOOKED IN CALENDAR**
+<img width="2048" height="922" alt="ghl-3" src="https://github.com/user-attachments/assets/24162715-b367-4d74-bd23-91b6e54cf89d" />
+
+**FUNNEL**
+<img width="1366" height="731" alt="GHL-1" src="https://github.com/user-attachments/assets/adb790a0-6b57-4377-9532-7a245ea50543" />
+
+
+
 
 
 
@@ -39,6 +47,15 @@ Voices used : ElevenLabs, OpenAI
    When you capitalise a text, it tells the agent that it is very important.
 
    <img width="1042" height="528" alt="image" src="https://github.com/user-attachments/assets/756736b8-79a4-4d98-af1e-9733b6120e09" />
+
+## N8N
+<img width="1366" height="768" alt="n8n-1 1" src="https://github.com/user-attachments/assets/f5f0513a-83b1-48ac-8843-0c6706469a3a" />
+<img width="1366" height="768" alt="n8n-2" src="https://github.com/user-attachments/assets/1a54bc76-cb5b-47fb-a9ec-98ea1ba7b851" />
+<img width="1366" height="768" alt="n8n-3" src="https://github.com/user-attachments/assets/a3913423-aa60-4431-9642-7fbc273d074b" />
+
+
+
+
 
 
 
